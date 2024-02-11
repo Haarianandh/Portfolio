@@ -1,0 +1,57 @@
+body {
+    font-family: cursive;
+    
+}
+
+header {
+    background-color: rgba(18, 88, 18, 0.828);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+
+
+h2{
+    background-color: #333;
+    color: white;
+}
+
+img{
+    border-radius: 50%;
+    float: right;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+nav{
+    color: white;
+    padding: 10px;
+    background-color:  rgba(18, 88, 18, 0.828);
+    
+}
+
+nav a{
+    padding: 75px;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(18, 19, 18);
+}
+
+img:hover{
+    transform: scale(0.7);
+}
